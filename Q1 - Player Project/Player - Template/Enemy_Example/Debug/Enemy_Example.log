@@ -1,9 +1,26 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018: The "GetOutOfDateItems" task failed unexpectedly.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018: System.InvalidOperationException: The item metadata "%(FullPath)" cannot be applied to the path "Debug\PlayerProject.tlog\ParallelCustomBuild.read.1.tlog". Path: Debug\PlayerProject.tlog\ParallelCustomBuild.read.1.tlog exceeds the OS max path limit. The fully qualified file name must be less than 260 characters.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018:    at Microsoft.Build.Shared.ErrorUtilities.ThrowInvalidOperation(String resourceName, Object[] args)
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018:    at Microsoft.Build.Shared.FileUtilities.ItemSpecModifiers.GetItemSpecModifier(String currentDirectory, String itemSpec, String definingProjectEscaped, String modifier, String& fullPath)
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018:    at Microsoft.Build.Utilities.TaskItem.Microsoft.Build.Framework.ITaskItem2.GetMetadataValueEscaped(String metadataName)
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018:    at Microsoft.Build.Utilities.TaskItem.GetMetadata(String metadataName)
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018:    at Microsoft.Build.CPPTasks.GetOutOfDateItems.Execute()
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Microsoft.Build.BackEnd.ITaskExecutionHost.Execute()
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(197,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext()
+﻿  Player.cpp
+M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Enemy_Example\Player.cpp(16,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Enemy_Example\Player.cpp(17,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Enemy_Example\Player.cpp(57,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Enemy_Example\Player.cpp(57,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Enemy_Example\Player.cpp(115,33): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Enemy_Example\Player.cpp(115,21): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Enemy_Example\Player.cpp(120,33): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Enemy_Example\Player.cpp(120,21): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Enemy_Example.vcxproj -> M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1 - Player Project\Player - Template\Debug\PlayerProject.exe

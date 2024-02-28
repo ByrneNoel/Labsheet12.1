@@ -24,10 +24,23 @@ class Player
 public:	  // declaration of member functions	
 
 	Player(); // default constructor
+
 	void loadImage(); // load the image 
 
-	sf::Sprite getBody();
-	void setPosition();
 	void setPosition(int xPos, int yPos);
+
+	void increaseSpeed();
+	void decreaseSpeed();
+	void increaseSize();
+	void movement();
+	void reverseMovement();
+
+	void changeColour();
+
+	bool reverse = false;
+	
+
+	sf::Sprite getBody();
+	
 
 };

@@ -49,9 +49,10 @@ int main()
 	return 0;
 }
 
-Game::Game() :window(sf::VideoMode(static_cast<int>(SCREEN_WIDTH), static_cast<int>(SCREEN_HEIGHT)), "Display player object within screen boundary", sf::Style::Default)
+Game::Game():window(sf::VideoMode(static_cast<int>(SCREEN_WIDTH), static_cast<int>(SCREEN_HEIGHT)), "Display player object within screen boundary", sf::Style::Default)
 //  default constructor function
 {
+	
 }
 
 
@@ -76,6 +77,8 @@ void Game::run()
 // This function contains the main game loop which controls the game. 
 {
 	srand(time(nullptr)); // set the seed once
+
+
 
 	sf::Time timePerFrame = sf::seconds(1.0f / 60.0f);
 	sf::Time timeSinceLastUpdate = sf::Time::Zero;
@@ -121,31 +124,43 @@ void Game::update()
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::F))
 	{
 		// the player’s movement speed should increase by 1.
+		myPlayer.increaseSpeed();
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
 	{
 		// the player’s movement speed should decrease by 1.
+		myPlayer.decreaseSpeed();
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::I))
 	{
 		// the size of the player's image increases. This occurs only once.
+		myPlayer.increaseSize();
+		
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::C))
 	{
 		 // changes the colour of the player's image when C is pressed
+		myPlayer.changeColour();
+
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 	{
 		// changes the direction the player is moving when D is pressed
+		myPlayer.reverseMovement();
+		
 	}
 
 	// calls the player object to move itself in the appropriate direction
+	myPlayer.movement();
 	
 	
+	
+
+
 }
 
 void Game::draw()
