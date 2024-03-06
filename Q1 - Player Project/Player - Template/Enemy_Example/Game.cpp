@@ -150,12 +150,14 @@ void Game::update()
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 	{
 		// changes the direction the player is moving when D is pressed
-		myPlayer.reverseMovement();
-		
+		myPlayer.reverseMovement();	
 	}
 
+	else
+	{
+		myPlayer.movement();
+	}
 	// calls the player object to move itself in the appropriate direction
-	myPlayer.movement();
 	
 	
 	

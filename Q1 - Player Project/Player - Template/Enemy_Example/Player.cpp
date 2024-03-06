@@ -125,9 +125,8 @@ void Player::movement()
 void Player::reverseMovement()
 {
 	movement();
-	reverse = true;
+	reverse = !reverse;
 	
-
 }
 
 void Player::changeColour()
