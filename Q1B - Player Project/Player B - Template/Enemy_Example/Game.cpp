@@ -82,7 +82,7 @@ void Game::run()
 
 
 	clock.restart();
-
+	setUpGame();
 	while (window.isOpen())
 	{
 		// check if the close window button is clicked on
@@ -107,8 +107,7 @@ void Game::run()
 		{
 			update();
 			draw();
-			setUpGame();
-			moveEnemies();
+						moveEnemies();
 			
 
 			// reset the timeSinceLastUpdate to 0 
@@ -155,7 +154,7 @@ void Game::draw()
 	window.draw(m_message);  // write the message on the screen
 
 	window.draw(myPlayer.getBody());  // draw the player object
-	window.draw(enemyOne.getBody());  // draw the enemy object
+	 
 
 	for (int index = 0; index < MAX_ENEMIES; index++)
 	{

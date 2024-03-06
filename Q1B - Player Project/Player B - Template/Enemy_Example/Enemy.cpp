@@ -53,7 +53,7 @@ void Enemy::setPosition(int xPos, int yPos)  // set the position of the Enemy on
 void Enemy::moveRight()
 {
 	
-	speed = 10;
+	speed = 5;
 
 	sf::Vector2f pos(sprite.getPosition());
 	setPosition(pos.x + speed, pos.y);

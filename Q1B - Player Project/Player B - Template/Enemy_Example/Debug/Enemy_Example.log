@@ -1,24 +1,27 @@
-﻿  Enemy.cpp
-M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(50,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(50,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(59,32): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+﻿  Game.cpp
+C:\Users\Me\OneDrive - South East Technological University\Desktop\New folder\Q1B - Player Project\Player B - Template\Enemy_Example\Game.cpp(75,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Enemy.cpp
+C:\Users\Me\OneDrive - South East Technological University\Desktop\New folder\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(50,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Me\OneDrive - South East Technological University\Desktop\New folder\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(50,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Me\OneDrive - South East Technological University\Desktop\New folder\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(59,32): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(59,20): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Me\OneDrive - South East Technological University\Desktop\New folder\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(59,20): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(63,54): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Me\OneDrive - South East Technological University\Desktop\New folder\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(63,54): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(63,17): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Me\OneDrive - South East Technological University\Desktop\New folder\Q1B - Player Project\Player B - Template\Enemy_Example\Enemy.cpp(63,17): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-  Enemy_Example.vcxproj -> M:\Programming\Labsheets\Labsheet 12 - Classes & Objects\Q1B - Player Project\Player B - Template\Debug\PlayerProject.exe
+  Generating Code...
+  Enemy_Example.vcxproj -> C:\Users\Me\OneDrive - South East Technological University\Desktop\New folder\Q1B - Player Project\Player B - Template\Debug\PlayerProject.exe
