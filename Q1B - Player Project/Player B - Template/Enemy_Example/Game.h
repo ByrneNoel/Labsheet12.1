@@ -15,7 +15,6 @@ class Game
 {
 	// data members
 	Player myPlayer;  // creates an object of type Player using the default constructor
-	Enemy enemyOne;  // creates an object of type Enemy using the default constructor
 	static const int MAX_ENEMIES = 5;
 	Enemy enemies[MAX_ENEMIES];
 	sf::RenderWindow window;  // main game window
